@@ -1,0 +1,11 @@
+{
+    "disableAutoUpdate": false,
+    "name": "block-level-1-whispers",
+    "author": "Owyn/Kygas",
+    "description": "Hides whispers from level 1 characters ",
+    "options": {
+        "niceName": "block-level-1-whispers",
+        "guiName": "block-level-1-whispers"
+    },
+    "servers": ["https://raw.githubusercontent.com/Kygas/block-level-1-whispers/master/"]
+}
