@@ -30,8 +30,8 @@ module.exports = function blockLevelOneWhispers(dispatch) {
 			while(whisperQueues[event.name].length > 0) {
 			  dispatch.toClient('S_WHISPER', 4, {
 				gameId: gameId,
-				senderServerId : event.serverId
-				recipientServerId : serverId
+				senderServerId : event.serverId,
+				recipientServerId : serverId,
 				isWorldEventTarget: false,
 				gm: false,
 				founder: false,
